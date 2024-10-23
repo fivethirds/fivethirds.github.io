@@ -125,30 +125,3 @@ canvas {
 
 /* set button(top and bottom of the scrollbar) */
 .right::-webkit-scrollbar-button {display:none}
-/* 
-.topnav {
-    overflow: hidden;
-    padding: 20px;
-    margin: 0px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.topnav a {
-    float: left;
-    text-align: center;
-    padding: 14px 24px;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-}
-
-.topnav a:hover {
-    color: black;
-}
-
-.topnav a.active {
-    color: white;
-} */
