@@ -63,7 +63,6 @@ a.profile {
 }
 
 .btn {
-    padding:15px;
     color:white;
     font-size:18px;
     font-weight:bold;
@@ -79,7 +78,7 @@ a.profile {
 	background-color: #2d2d2d;
 	text-align: center;
 	width: 100%;
-    margin:60px 0px;
+    margin:90px 0px 60px 0px;
 }
 
 .topnav {
