@@ -1,0 +1,168 @@
+
+body {
+    color:black;
+}
+
+h1 {
+    padding:20px 5%;
+    margin:0px;
+    font-size:40px;
+}
+
+p {
+    padding:20px 5%;
+    margin:0px;
+    word-break:break-word;
+    font-size:20px;
+    color:#2d2d2d;
+}
+
+img {
+    width:100%;
+    min-height:0px;
+}
+
+img.small {
+    top:-15px;
+    position:relative;
+    width:50px;
+    height:50px;
+}
+
+img.pfp {
+    max-width:250px;
+    align-self:center;
+    justify-self:center;
+}
+
+a.profile {
+    text-decoration:none;
+    justify-content:center;
+    display:flex;
+    color:black;
+}
+
+.container {
+    width:70%;
+    background-color:#e6e6e6;
+    padding:3%;
+    box-shadow: -20px 20px ;
+    justify-content:center;
+}
+
+.caption {
+    width:100%;
+    background-color:white;
+    padding:3%;
+    text-align:center;
+    word-break:break-word;
+    color:black;
+    font-size:40%;
+    min-height:0px;
+    min-width:0px;
+
+}
+
+.btn {
+    padding:15px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#eb7867;
+}
+
+.logoIMG {
+    width: 100%;
+	height: auto;
+}
+
+.logoDIV {
+	background-color: #2d2d2d;
+	text-align: center;
+	width: 100%;
+    margin:100px 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 20px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    color: white;
+}
+
+.flex-container {
+	margin: 10px ;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-child {
+    padding:2%;
+    flex: 1;
+    background-color:white;
+    font-size:40px;
+    margin:1% 1.5%;
+    display:grid;
+    border-style:solid;
+    border-width: 5px;
+    border-color:#2d2d2d; 
+}  
+
+.flex-child:first-child {
+	flex: 1;	
+}
+
+.flex-child:last-child {
+	flex: 1;	
+}
+
+.footer {
+    background-color:black;
+    padding:5%;
+}
+
+.footercontainer {
+    color:#e6e6e6;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      align-content:center;
+    }
+    .flex-child {
+        flex-basis:100%;
+        padding:2%;
+        max-width: 280px;
+        justify-self:center;
+    }
+  }
+
+  @media (min-width: 801px) { 
+    .flex-child {
+        box-shadow: -10px 10px #eb7867;
+    }
+  }
+
+
