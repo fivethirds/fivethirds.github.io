@@ -1,0 +1,222 @@
+
+body {
+    background-color: #0e0e0e;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    max-width:100vw;
+}
+
+.settingsPanel {
+    margin:1% 0%;
+    /* min-width:80%; */
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+
+    justify-content:center;
+    width:140vh;
+    justify-self:right;
+}
+
+.panel {
+    background-color:white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding:2%;
+    
+    margin:10vh 10vw;
+    box-shadow: -2.5vh 2.2vh 0px rgb(56, 53, 120);
+
+    
+}
+
+.question {
+    font-size: 30px;
+    padding: 0px 5%;
+}
+
+.options {
+ font-size: 20px;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ /* grid-auto-rows: 0.95fr; */
+ /* grid-gap: 10% 2%; */
+ /* grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); */
+ /* top: 40%; */
+ margin:2%;
+ /* max-width:70%; */
+ min-width:90%;
+ /* height:max-content; */
+ min-height:max-content;
+
+}
+
+.logo {
+    /* background-color: white; */
+    font-size:6vw;
+    padding:1%;
+    margin:1% 0px;
+    width: 140vh;
+    /* box-shadow: -2.5vw 2.2vw 0px rgb(56, 53, 120), 0px 2.2vw 0px rgb(56, 53, 120); */
+    display:grid;
+    justify-self:right;
+
+}
+/* 
+.optionsBox {
+    background-color:blue;
+    border-style:solid;
+    border-color:black;
+    border:1px;
+    height:100%;
+    align-items:center;
+} */
+
+button {
+    font-size: 20px;
+    padding:1%;
+    background-color: rgb(4, 2, 65);
+    color:white;
+    border: none;
+    cursor: pointer;
+    margin:2% 0%;
+}
+
+button.start {
+    width:30vh;
+    font-size:4.5vh;
+    /* margin:2% 0%; */
+    position:relative;
+    box-shadow: -2.5vh 2.2vh 0px rgb(56, 53, 120);
+    justify-self:right;
+    right:55vh;
+    font-weight:bold;
+    background-color:white;
+    color:black;
+}
+
+img.background {
+    position:fixed;
+    z-index:-1;
+    /* width:1400px; */
+    height:135vh;
+}
+img.large {
+    /* width:45vw; */
+    width:100%;
+    justify-self:right;
+    /* min-height: 80%; */
+    min-width:90%;
+}
+
+label {
+    word-break: break-word;
+    margin:0px;
+    padding:2% 4%;
+    cursor:pointer;
+    width:100%;
+    height:100%;
+    /* text-align:center; */
+    /* vertical-align:middle; */
+    align-content:center;
+    /* line-height:normal; */
+    border: 2px solid white;
+    max-height:100%;
+    /* box-sizing:content-box; */
+    background-color:rgb(234,238,247);
+}
+
+label:hover {
+    color:rgb(56, 53, 120);
+}
+
+div {
+    display:flex;
+    align-items:center;
+}
+
+h1 {
+    margin:5%;
+}
+
+input {
+    /* margin:2%; */
+    /* max-width: 80px; */
+    color: black;
+    justify-self:center;
+    /* box-sizing:border-box; */
+} 
+
+input[type = "radio"] {
+    display:none;
+}
+
+
+  input:checked + label:last-child {
+    color: rgb(56, 53, 120);
+    box-shadow: inset 0.2em 0.2em rgb(4, 2, 65), inset -0.2em -0.2em rgb(4, 2, 65);
+  }
+/* input[type = "radio"]:checked + label{
+    border:2px solid black;
+    background-color:green;
+} */
+/* .radio-toolbar input[type="radio"]:checked+label {
+    background-color: #bbb;
+  } */
+  /* .radio-toolbar input[type="radio"]:checked ~ * { 
+    background:pink !important;
+} */
+ /* input:checked {
+    background-color:blue;
+    color:red;
+ } */
+
+p {
+    margin: 0px 0%;
+    padding:1% 3%;
+    border:0px;
+    box-shadow:none;
+    text-wrap:wrap;
+    /* max-width:max-content; */
+    width:max-content;
+    display:grid;
+    font-size:20px;
+    font-size:4vh;
+    color:rgb(234,238,247);    
+}
+
+body {
+    display:grid;
+    background-color:rgb(4, 2, 65);
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .logo {
+        justify-self:center;
+        width:95%;
+        min-height: 15vh;
+    }
+    button.start {
+        position:static;
+        justify-self:center;
+        width:45vh;
+        font-size:8vh;
+    }
+    .settingsPanel {
+        justify-self:center;
+        justify-content:center;
+        flex-direction:column;
+    }
+    img.large {
+        justify-self:center;
+    }
+    p {
+        font-size:8vh;
+    }
+    .panel {
+        margin: 10vh 2vw;
+    }
+}
