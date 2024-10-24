@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-    padding:10px 5%;
+    padding:0px;
     margin:0px;
-    font-size:40px;
+    font-size:2vw;
 }
 
 p {
-    padding:20px 5%;
+    padding:0px 0px;
     margin:0px;
     word-break:break-word;
-    font-size:2vw;
+    font-size:1.8vw;
     color:#2d2d2d;
 }
 
@@ -120,7 +120,7 @@ a.profile {
     flex: 1;
     font-size:40px;
     margin:0% 1.5%;
-    display:grid;
+    
 }  
 
 .flex-child:first-child {
@@ -128,8 +128,9 @@ a.profile {
 }
 
 .flex-child:last-child {
-	flex: 3;	
+	flex: 1;	
 }
+
 
 .footer {
     background-color:black;
@@ -152,6 +153,9 @@ a.profile {
     }
     p{
         font-size:5vw;
+    }
+    h1{
+        font-size:6vw;
     }
   }
 
